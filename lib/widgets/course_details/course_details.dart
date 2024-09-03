@@ -11,6 +11,9 @@ class CourseDetails extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
+          SizedBox(
+            height: 100,
+          ),
           Text(
             'FLUTTER WEB.\nTHE BASICS',
             style: TextStyle(
