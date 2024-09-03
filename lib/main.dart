@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_basics/views/home/home_view.dart';
+import 'package:the_basics/views/home/home_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Web',
       theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-          textTheme: Theme.of(context)
-              .textTheme
-              .apply(fontFamily: 'Plus Jakarta Sans')),
+        primarySwatch: Colors.blue,
+        textTheme: Theme.of(context).textTheme.apply(fontFamily: 'Open Sans'),
+      ),
       home: HomeView(),
     );
   }

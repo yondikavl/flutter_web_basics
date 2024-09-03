@@ -22,9 +22,9 @@ class NavBar extends StatelessWidget {
               SizedBox(
                 width: 60,
               ),
-              _NavBarItem('About')
+              _NavBarItem('About'),
             ],
-          ),
+          )
         ],
       ),
     );
