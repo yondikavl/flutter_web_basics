@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+<img src="./Flutter-web-basic.png" alt="flutter-web-basic">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
