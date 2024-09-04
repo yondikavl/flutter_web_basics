@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CenteredView extends StatelessWidget {
   final Widget child;
-  const CenteredView({super.key, required this.child});
+  const CenteredView({Key? key, required this.child}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
